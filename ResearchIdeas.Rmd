@@ -1,0 +1,14 @@
+---
+title: "NewIdeas"
+author: "Rob Hayward"
+date: "2 November 2015"
+output: 
+  html_document: 
+    theme: journal
+    toc: yes
+---
+
+#Change in text
+There is a story about the change in the way that the WSJ addressed the [question of deficits](http://economistsview.typepad.com/economistsview/2015/11/defending-the-bush-deficits.html).  
+
+I think that this can be investigated with some text-mining techniques. 

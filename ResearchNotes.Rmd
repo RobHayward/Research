@@ -1,0 +1,54 @@
+---
+title: "ResearchNotes"
+author: "Rob Hayward"
+date: "1 November 2015"
+output: 
+  html_document: 
+    toc: yes
+---
+
+#Sudden Stops
+[Capital flow Bonanzas (Reinhart)](http://econpapers.repec.org/paper/nbrnberwo/14321.htm)
+This paper catelogs capital inflow bonanzas for the period 1960 to 2007 for 181 countries. Finding that global factors such as commodity prices, international interest rates and growth in the world's largest economies have a systematic effect on the capital flow cycle. Capital inflow bonanzas are associated with higher likelihood of economic crisis (debt defaults, banking, inflation and currency crashes). 
+[Blanchard](http://www.citeulike.org/pdf//user/RobHayward/article/13818723}{CitULike)
+
+Are capital flows expansionary - Blanchard, Ostry, Ghost and Chamon. 
+
+The traditional open-economy model suggests that capital in-flows are contractionary (as the appreciation of the exchange rate reduces net exports).  However, policy-makers believe that they are expansionary as they increase credit and raise asset prices.  An augmented Mundell-Flemming model, including bonds and non-bonds, allows an inflow to reduce the rate on bonds and an expansionary reduction in the cost of financial intermediation.  This can offset contractionary effects.  There are of course (according to me) some sectoral distributive effects. 
+
+This is based on models of Mundell (1963), Flemming (1962) and Dornbusch (1976). 
+
+Ostry (2012) looks at effect of capital controls during the finanical crisis. Reinhard and Rogoff (2009) show that capital flows played a major role in driving boom-bust cycles. 
+
+Bonds and non-bonds.  Here non-bonds are stocks and bank deposits (imperfect substitutes).  The policy rate (bonds) may be given but capital inflows can reduce the rate on non-bonds (driving up equity prices and flooding the banking system with cash).   
+
+Implications:  effect of capital flows depends on the nature of the flow.  For a given policy rate, bond inflows lead only to an exchange rate appreciation and are therefore contractionary.  However, non-bond flows lead to an appreciation and a fall in the rate of return. 
+
+Sterilized intervention through bonds can fully offset the effect of capital inflow to the bond market. The central bank offsets the foreign influence. When the central bank faces a inflow to non-bonds, the intervention can prevent appreciation but reduces the rate of return on non-bonds. 
+
+What are the extensions:  lower returns on non-bonds can mean an increase in credit growth (also equity and real estate bubbles).  Distortions include real (Dutch discease) and financial (bubbles). Policy tools that target the type of flow (such as intervention and capital controls) are more effective than tools that do not (interet rate). 
+
+Three major types of non-bonds:  FDI, domestic equities and domestic bank liabilities. There must be imperfect substituatility between domestic bonds, domestic non-bonds and foreign bonds so that different rates do not lead to infinite capital flows. 
+IMF, Hyun Song Shin, 
+     [IMF](https://www.imf.org/external/pubs/ft/wp/2013/wp13258.pdf)
+
+Search for early warning indicators.  . Three early warnings:  financial market prices (CDS spreads, implied volatility and other prices), level of credit (relative to GDP) and liabilities of financial intermediaries (money growth).  Credit and provide some warning while asset prices are more concurrent.
+
+LIterature is either eclectic or pragmatic says Shin. Kaminsky, Lizondo and Reinhart 1998) identifty 105 variables that have been used. 
+
+Emerging economies are more associated with sudden stops. 
+
+There is an overview from Chamon and Crowe (2012).  
+
+Emerging market crisis of 1990 provided impetus to the work. GFC as well. 
+
+ IMF has a Vulernability Exercise for Emerging Economies (VEE). 
+
+BIS: Evaluating the early warning indicators of banking crisis: satisfying policy requirements,. . Assessment of early warning indicatros (EWI).  Vlaue of credit-to-GDP gap and debt-service ratio outperform other measures. 
+
+[BIS](http://www.bis.org/publ/work421.pdf)
+Mathias Drehmann and Mikael Juselius
+
+The indicators must come early enough to be useful.
+
+Kaminsky and Reinhart (2000). Signal extraction based on methodology developed from Diebold and Rudebusch (1989) and Stock and Watson (1989). 
