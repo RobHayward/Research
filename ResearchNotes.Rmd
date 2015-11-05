@@ -7,7 +7,42 @@ output:
     toc: yes
 ---
 
+#Capital flow
+[International liquidity and Exchange rate dynamics](http://www.citeulike.org/user/RobHayward/article/13828642). Exchange rates determined by capital flows. Supply and demand for capital and willingness of financial system to absorb imbalances determines exchange rates.  Risk-taking in currency markets is concentrated amongst a few niche financial institutions. These institutions range from proprietary desks of investment banks, hedge funds and active fund managers. Constrained by capital and balance sheet. Alterations in the financial balance sheets cause alterations in the pricing of currency risk. This introduces portfolio flows, financiers' balance sheets and risk into the determination of exchange rates. 
+
+Stylised facts:  Failues of UIP and profitability of carry trade; large-scale gross capital flows; appreciation of exchange rates that face capital inflows; disconnect between exchange rates and macroeconomic fundamentals; vulnerability of extetrnal-debt currencies to financial shock; impact of large-scale intervention on exchange rates. UIP is violated because financiers' risk-bearing activity scope is limited and this requires them to demand a risk-premium. The carry-trade is profitable because, given an interest rate differential, financiers cannot take sufficient risk to exploit the profitability of the trade. Financial disruptions require an increased expected return via an immediate loss and an expectation of recovery ahead. Financiers act as shock absorbers by absorbing some of the imbalace caused by fundamentals but also cause shocks 
+
+With goods prices sticky in domestic currency, a capital inflow that causes an appreciation of the exchange rate causes a fall in the demand for inflow-receiving country exports and a fall in output. The inflow of capital can therefore cause a reduction in output. 
+
+This paper is related to 
+
+* Early portfolio balance models: Kouri (1976), Diskill and McCafferty (1980).  Branson and Henderson (1985). There are a number of models that focus on UIP-based analysis or currency risk-premia in complete markets. 
+* There are also exchange rate models in the face of frictions. 
+
+Financiers intermediate the goods and bond demand of two representative countries. Capital flows from households move financiers up and down the demand curve.  Exchange rates are financially-determined. 
+
+There is a construction that ensures that risk-taking is limited by the overall size of the positions and risk (as measured by the variance). This is build on the ideas used previouly by Gertler and Kiyotaki (2010) and Maggiori (2014). Adrian and Shin (2013) provide foundations and empirical evidnece for a VaR constraint that does similar work. This case is the *basic gamma model*.   The aggregate financial sector's optimal demand for dollar bonds vs yen bonds follows
+
+$$Q_0 = \frac{1}{\Gamma} E \left [ e_0 - e_1\frac{R^*}{R} \right ]$$
+
+where,$\Gamma = \gamma(var(e_1))^{\alpha}$. When $\Gamma = 0$, the financiers are willing to take any position and UIP holds; When $\Gamma \rightarrow \infty$ the finaciers are unwilling to taken any positions. Between those two cases, there is some intermediation and UIP does not always hold. The deviations from UIP are related to financiers risk-taking. 
+
+## Financial constraints
+[Darrell Duffie](http://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2010.01569.x/full) provides a model of securities prices adjustment to information that is based on slow-moving capital.  He cites the reaction of stocks to index exclusion, with price concession that has waned over time and the explanation that buyers initially requires a substantial price fall but as capital is employed to take advantage of this inefficiency, the price fall becomes more limited. Price impact is measured from the last execution price at $P_{t-1}$ to the lowest limit order buy that is hit by the market sell order. The price impact will increase with the size of the sell order. New orders will enter the market. Inferrence is drawn over whether the sale was motivated by private information or by liquidity motivation.  The first new limit order to buy will arrive opportunistically between last price executed and the valuation that is attached to the security. Gradually an assessment of the motivation of the seller and the value of the security emerge. Limit order prices and expected value will tend to converge and the price will tend to rise.  On average, the price is not expected to fully recover as some sell orders are based on new information. 
+
+>If the balance-sheet capacity of dealers is depeleted, their ability to intermediate markets is reduced.  They become less able or  predisposed to absorb supply and demand shocks, and to hold buffer inventories of assets.  When this happens, one expects the market value of risky assets to decline commensurately.  
+
+The financial crisis provide an example of cases where the depeltion of dealer capital was such that distortions in arbitrage-based pricing relationship appeared. For example, CDS and bond spreads. 
+
+If investors are not really attentive to market prices at all times, the market is thnner in each moment and the price impact of traders will be larger. This would mean higher short-run volatility and negatively correlated asset returns. 
+
 #Sudden Stops
+[Can intervention stem exchange rate pressure](http://www.imf.org/external/pubs/cat/longres.aspx?sk=43090.0)
+FX intervention for emerging economies as a response to gross capital inflow. Has this been an effective tool? FX leads to less exchange rate appreciation. FX intervention can affect the exchange rate through a signalling channel and a portfolio balance channel. Portfolio balance channel Henderson Rogoff (1982), Kouri (1983) and Branson and Henderson (1985).  See Kumhof (2010) and Gabaix Maggiori (2014) for recent advances. 
+
+Rey (2013) and de Carvalho (2014) find the VIX to be a good proxy for global financial flows. 
+
+
 [Capital flow Bonanzas (Reinhart)](http://econpapers.repec.org/paper/nbrnberwo/14321.htm)
 This paper catelogs capital inflow bonanzas for the period 1960 to 2007 for 181 countries. Finding that global factors such as commodity prices, international interest rates and growth in the world's largest economies have a systematic effect on the capital flow cycle. Capital inflow bonanzas are associated with higher likelihood of economic crisis (debt defaults, banking, inflation and currency crashes). 
 [Blanchard](http://www.citeulike.org/pdf//user/RobHayward/article/13818723}{CitULike)
