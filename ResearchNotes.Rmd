@@ -52,3 +52,13 @@ Mathias Drehmann and Mikael Juselius
 The indicators must come early enough to be useful.
 
 Kaminsky and Reinhart (2000). Signal extraction based on methodology developed from Diebold and Rudebusch (1989) and Stock and Watson (1989). 
+
+##Case study Hungary
+[Ecofin Research](http://ec.europa.eu/economy_finance/publications/publication1409_en.pdf).  Comprehensive reform began in 1995.  This included reductions in government spending and a pre-announced crawling peg with fluctuation bands of 2.25\% of the forint against a basket. However, by 2001 policy orientation began to reverse with larger budget deficits.  There were large imbalances by 2003. The central bank had to increase interest rates by 600bp in 2003, taking the policy rate to 12.5\%.   The policy mix turned from tight-fiscal and loose-money to loose-fisca and tight-money. The 2001 to 2002 period, described by this paper as the "root of the problem" (p3).  Minimum wages were doubled. Currency appreciated to reach the upper end of the fluctuation band. The current account deficit reached 5.5\% of GDP In 2003. 
+
+By the end of 2002, there was a specuative attack against the stong side of the band, buoyed by high interest rates, stong economic growth and forthcoming EU accession. Speculative attack addressed by 200bp rate cut and some other measures (what are these?).  In June 2003, the government devaled the cental partiy against the euro by 2.26% and increased the fluctuation bands to 15\%.  A speculative attack on teh currency was met by a 300bo increase in interest rates (June 2003). In November 2003, poor economic news (fiscal) cause another outflow, a 4-month low and a 300bp increase in interest rates (12.5\%)
+
+Others:  Poland suffered significant depreciation during 2008Q4 to 2009Q1. 
+THis time it is different:  2008 currency crisis defined as Latvia, Ukraine, Hungary, Russia. Capital flows and currency crisis table. 
+
+17.1 early warning of currency crisis. What are teh altenative.s 
