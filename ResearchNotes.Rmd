@@ -7,18 +7,53 @@ output:
     toc: yes
 ---
 
+#Capital flow
+[International liquidity and Exchange rate dynamics](http://www.citeulike.org/user/RobHayward/article/13828642). Exchange rates determined by capital flows. Supply and demand for capital and willingness of financial system to absorb imbalances determines exchange rates.  Risk-taking in currency markets is concentrated amongst a few niche financial institutions. These institutions range from proprietary desks of investment banks, hedge funds and active fund managers. Constrained by capital and balance sheet. Alterations in the financial balance sheets cause alterations in the pricing of currency risk. This introduces portfolio flows, financiers' balance sheets and risk into the determination of exchange rates. 
+
+Stylised facts:  Failures of UIP and profitability of carry trade; large-scale gross capital flows; appreciation of exchange rates that face capital inflows; disconnect between exchange rates and macroeconomic fundamentals; vulnerability of external-debt currencies to financial shock; impact of large-scale intervention on exchange rates. UIP is violated because financiers' risk-bearing activity scope is limited and this requires them to demand a risk-premium. The carry-trade is profitable because, given an interest rate differential, financiers cannot take sufficient risk to exploit the profitability of the trade. Financial disruptions require an increased expected return via an immediate loss and an expectation of recovery ahead. Financiers act as shock absorbers by absorbing some of the imbalance caused by fundamentals but also cause shocks 
+
+With goods prices sticky in domestic currency, a capital inflow that causes an appreciation of the exchange rate causes a fall in the demand for inflow-receiving country exports and a fall in output. The inflow of capital can therefore cause a reduction in output. 
+
+This paper is related to 
+
+* Early portfolio balance models: Kouri (1976), Diskill and McCafferty (1980).  Branson and Henderson (1985). There are a number of models that focus on UIP-based analysis or currency risk-premia in complete markets. 
+* There are also exchange rate models in the face of frictions. 
+
+Financiers intermediate the goods and bond demand of two representative countries. Capital flows from households move financiers up and down the demand curve.  Exchange rates are financially-determined. 
+
+There is a construction that ensures that risk-taking is limited by the overall size of the positions and risk (as measured by the variance). This is build on the ideas used previously by Gertler and Kiyotaki (2010) and Maggiori (2014). Adrian and Shin (2013) provide foundations and empirical evidence for a VaR constraint that does similar work. This case is the *basic gamma model*.   The aggregate financial sector's optimal demand for dollar bonds vs yen bonds follows
+
+$$Q_0 = \frac{1}{\Gamma} E \left [ e_0 - e_1\frac{R^*}{R} \right ]$$
+
+where,$\Gamma = \gamma(var(e_1))^{\alpha}$. When $\Gamma = 0$, the financiers are willing to take any position and UIP holds; When $\Gamma \rightarrow \infty$ the financiers are unwilling to taken any positions. Between those two cases, there is some intermediation and UIP does not always hold. The deviations from UIP are related to financiers risk-taking. 
+
+## Financial constraints
+[Darrell Duffie](http://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.2010.01569.x/full) provides a model of securities prices adjustment to information that is based on slow-moving capital.  He cites the reaction of stocks to index exclusion, with price concession that has waned over time and the explanation that buyers initially requires a substantial price fall but as capital is employed to take advantage of this inefficiency, the price fall becomes more limited. Price impact is measured from the last execution price at $P_{t-1}$ to the lowest limit order buy that is hit by the market sell order. The price impact will increase with the size of the sell order. New orders will enter the market. Inference is drawn over whether the sale was motivated by private information or by liquidity motivation.  The first new limit order to buy will arrive opportunistically between last price executed and the valuation that is attached to the security. Gradually an assessment of the motivation of the seller and the value of the security emerge. Limit order prices and expected value will tend to converge and the price will tend to rise.  On average, the price is not expected to fully recover as some sell orders are based on new information. 
+
+>If the balance-sheet capacity of dealers is depleted, their ability to intermediate markets is reduced.  They become less able or  predisposed to absorb supply and demand shocks, and to hold buffer inventories of assets.  When this happens, one expects the market value of risky assets to decline commensurately.  
+
+The financial crisis provide an example of cases where the depletion of dealer capital was such that distortions in arbitrage-based pricing relationship appeared. For example, CDS and bond spreads. 
+
+If investors are not really attentive to market prices at all times, the market is thinner in each moment and the price impact of traders will be larger. This would mean higher short-run volatility and negatively correlated asset returns. 
+
 #Sudden Stops
+[Can intervention stem exchange rate pressure](http://www.imf.org/external/pubs/cat/longres.aspx?sk=43090.0)
+FX intervention for emerging economies as a response to gross capital inflow. Has this been an effective tool? FX leads to less exchange rate appreciation. FX intervention can affect the exchange rate through a signalling channel and a portfolio balance channel. Portfolio balance channel Henderson Rogoff (1982), Kouri (1983) and Branson and Henderson (1985).  See Kumhof (2010) and Gabaix Maggiori (2014) for recent advances. 
+
+Rey (2013) and de Carvalho (2014) find the VIX to be a good proxy for global financial flows. 
+
+
 [Capital flow Bonanzas (Reinhart)](http://econpapers.repec.org/paper/nbrnberwo/14321.htm)
-This paper catelogs capital inflow bonanzas for the period 1960 to 2007 for 181 countries. Finding that global factors such as commodity prices, international interest rates and growth in the world's largest economies have a systematic effect on the capital flow cycle. Capital inflow bonanzas are associated with higher likelihood of economic crisis (debt defaults, banking, inflation and currency crashes). 
+This paper catalogues capital inflow bonanzas for the period 1960 to 2007 for 181 countries. Finding that global factors such as commodity prices, international interest rates and growth in the world's largest economies have a systematic effect on the capital flow cycle. Capital inflow bonanzas are associated with higher likelihood of economic crisis (debt defaults, banking, inflation and currency crashes). 
 [Blanchard](http://www.citeulike.org/pdf//user/RobHayward/article/13818723}{CitULike)
 
 Are capital flows expansionary - Blanchard, Ostry, Ghost and Chamon. 
 
-The traditional open-economy model suggests that capital in-flows are contractionary (as the appreciation of the exchange rate reduces net exports).  However, policy-makers believe that they are expansionary as they increase credit and raise asset prices.  An augmented Mundell-Flemming model, including bonds and non-bonds, allows an inflow to reduce the rate on bonds and an expansionary reduction in the cost of financial intermediation.  This can offset contractionary effects.  There are of course (according to me) some sectoral distributive effects. 
+The traditional open-economy model suggests that capital in-flows are contraction (as the appreciation of the exchange rate reduces net exports).  However, policy-makers believe that they are expansionary as they increase credit and raise asset prices.  An augmented Mundell-Flemming model, including bonds and non-bonds, allows an inflow to reduce the rate on bonds and an expansionary reduction in the cost of financial intermediation.  This can offset contractionary effects.  There are of course (according to me) some sectoral distributive effects. 
 
 This is based on models of Mundell (1963), Flemming (1962) and Dornbusch (1976). 
 
-Ostry (2012) looks at effect of capital controls during the finanical crisis. Reinhard and Rogoff (2009) show that capital flows played a major role in driving boom-bust cycles. 
+Ostry (2012) looks at effect of capital controls during the financial crisis. Reinhard and Rogoff (2009) show that capital flows played a major role in driving boom-bust cycles. 
 
 Bonds and non-bonds.  Here non-bonds are stocks and bank deposits (imperfect substitutes).  The policy rate (bonds) may be given but capital inflows can reduce the rate on non-bonds (driving up equity prices and flooding the banking system with cash).   
 
@@ -26,7 +61,7 @@ Implications:  effect of capital flows depends on the nature of the flow.  For a
 
 Sterilized intervention through bonds can fully offset the effect of capital inflow to the bond market. The central bank offsets the foreign influence. When the central bank faces a inflow to non-bonds, the intervention can prevent appreciation but reduces the rate of return on non-bonds. 
 
-What are the extensions:  lower returns on non-bonds can mean an increase in credit growth (also equity and real estate bubbles).  Distortions include real (Dutch discease) and financial (bubbles). Policy tools that target the type of flow (such as intervention and capital controls) are more effective than tools that do not (interet rate). 
+What are the extensions:  lower returns on non-bonds can mean an increase in credit growth (also equity and real estate bubbles).  Distortions include real (Dutch disease) and financial (bubbles). Policy tools that target the type of flow (such as intervention and capital controls) are more effective than tools that do not (interest rate). 
 
 Three major types of non-bonds:  FDI, domestic equities and domestic bank liabilities. There must be imperfect substituatility between domestic bonds, domestic non-bonds and foreign bonds so that different rates do not lead to infinite capital flows. 
 IMF, Hyun Song Shin, 
@@ -34,7 +69,7 @@ IMF, Hyun Song Shin,
 
 Search for early warning indicators.  . Three early warnings:  financial market prices (CDS spreads, implied volatility and other prices), level of credit (relative to GDP) and liabilities of financial intermediaries (money growth).  Credit and provide some warning while asset prices are more concurrent.
 
-LIterature is either eclectic or pragmatic says Shin. Kaminsky, Lizondo and Reinhart 1998) identifty 105 variables that have been used. 
+Literature is either eclectic or pragmatic says Shin. Kaminsky, Lizondo and Reinhart 1998) identify 105 variables that have been used. 
 
 Emerging economies are more associated with sudden stops. 
 
@@ -42,9 +77,9 @@ There is an overview from Chamon and Crowe (2012).
 
 Emerging market crisis of 1990 provided impetus to the work. GFC as well. 
 
- IMF has a Vulernability Exercise for Emerging Economies (VEE). 
+ IMF has a Vulnerability Exercise for Emerging Economies (VEE). 
 
-BIS: Evaluating the early warning indicators of banking crisis: satisfying policy requirements,. . Assessment of early warning indicatros (EWI).  Vlaue of credit-to-GDP gap and debt-service ratio outperform other measures. 
+BIS: Evaluating the early warning indicators of banking crisis: satisfying policy requirements,. . Assessment of early warning indicators (EWI).  Value of credit-to-GDP gap and debt-service ratio outperform other measures. 
 
 [BIS](http://www.bis.org/publ/work421.pdf)
 Mathias Drehmann and Mikael Juselius
@@ -54,11 +89,11 @@ The indicators must come early enough to be useful.
 Kaminsky and Reinhart (2000). Signal extraction based on methodology developed from Diebold and Rudebusch (1989) and Stock and Watson (1989). 
 
 ##Case study Hungary
-[Ecofin Research](http://ec.europa.eu/economy_finance/publications/publication1409_en.pdf).  Comprehensive reform began in 1995.  This included reductions in government spending and a pre-announced crawling peg with fluctuation bands of 2.25\% of the forint against a basket. However, by 2001 policy orientation began to reverse with larger budget deficits.  There were large imbalances by 2003. The central bank had to increase interest rates by 600bp in 2003, taking the policy rate to 12.5\%.   The policy mix turned from tight-fiscal and loose-money to loose-fisca and tight-money. The 2001 to 2002 period, described by this paper as the "root of the problem" (p3).  Minimum wages were doubled. Currency appreciated to reach the upper end of the fluctuation band. The current account deficit reached 5.5\% of GDP In 2003. 
+[Ecofin Research](http://ec.europa.eu/economy_finance/publications/publication1409_en.pdf).  Comprehensive reform began in 1995.  This included reductions in government spending and a pre-announced crawling peg with fluctuation bands of 2.25\% of the forint against a basket. However, by 2001 policy orientation began to reverse with larger budget deficits.  There were large imbalances by 2003. The central bank had to increase interest rates by 600bp in 2003, taking the policy rate to 12.5\%.   The policy mix turned from tight-fiscal and loose-money to loose-fiscal and tight-money. The 2001 to 2002 period, described by this paper as the "root of the problem" (p3).  Minimum wages were doubled. Currency appreciated to reach the upper end of the fluctuation band. The current account deficit reached 5.5\% of GDP In 2003. 
 
-By the end of 2002, there was a specuative attack against the stong side of the band, buoyed by high interest rates, stong economic growth and forthcoming EU accession. Speculative attack addressed by 200bp rate cut and some other measures (what are these?).  In June 2003, the government devaled the cental partiy against the euro by 2.26% and increased the fluctuation bands to 15\%.  A speculative attack on teh currency was met by a 300bo increase in interest rates (June 2003). In November 2003, poor economic news (fiscal) cause another outflow, a 4-month low and a 300bp increase in interest rates (12.5\%)
+By the end of 2002, there was a speculative attack against the strong side of the band, buoyed by high interest rates, sting economic growth and forthcoming EU accession. Speculative attack addressed by 200bp rate cut and some other measures (what are these?).  In June 2003, the government devalued the central parity against the euro by 2.26% and increased the fluctuation bands to 15\%.  A speculative attack on the currency was met by a 300bp increase in interest rates (June 2003). In November 2003, poor economic news (fiscal) cause another outflow, a 4-month low and a 300bp increase in interest rates (12.5\%)
 
 Others:  Poland suffered significant depreciation during 2008Q4 to 2009Q1. 
-THis time it is different:  2008 currency crisis defined as Latvia, Ukraine, Hungary, Russia. Capital flows and currency crisis table. 
+This time it is different:  2008 currency crisis defined as Latvia, Ukraine, Hungary, Russia. Capital flows and currency crisis table. 
 
-17.1 early warning of currency crisis. What are teh altenative.s 
+17.1 early warning of currency crisis. What are the alternative.s 
