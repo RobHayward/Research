@@ -7,7 +7,30 @@ output:
     toc: yes
 ---
 
+#Regime-switching method
+[Modelling time-varying variation in euro-lending spreads](http://www.bis.org/publ/work526.htm) BIS paper that looks at regime shift in a VAR model of lending passthourgh.  It uses a number of variables to model the regime-switch.  There are endogenous transiation-probabilities finds that global risk factors have contributed to higher lending rates in Italy and Spain while banking problems explain problems in Spain and fiscal and contaigion problems have affected Italy and Ireland. ECB extraordinary measures have had a temporary effect on Italy policy. There do not appear to be changes in the monetary policy transmission for Portugal. 
+
+The financial crisis necessitated the use of non-linear modelling techniques. Silverstrini and Zaghini (2015) explore the non-linear links between financial and real sectors. There are moentary frameworks with regimes-shifts like Svensson and Williams (2009). Markov-switching DSGE and VAR models like Sims et al (2008) and Davig and Doh (2009), Farmer et al. (2009), Branchi (2012).  
+
 #Capital flow
+[Capital flows in emerging](http://www.citeulike.org/user/RobHayward/article/13841123)
+How do capital flows change before and after the financial crisis? Do capital controls affect capital flows?  Dynamic panel model estimation. External factors are most important for emerging economies.  Short-term portfolio flow and long-term foreign direct investment affect emerging economy rates.  GFC caused accomodative policies that have created new challenges. Paper looks at the relationship between domestic factors and international factors affect the exchange rate.  For the latter, risk appetite, global liquidity, US monetary policy, commodity prices are used. This paper compliments the studie on the international aspect of US Fed quantitative easing and subsequent *tapering*. 
+
+Capital flows are more important.  Short-term flows are prone to reversal (Ahmed and Zlate: 2014).  Unconventional policies encouraged the flow of capital from developed to emerging economies. 
+
+The dynamic panel shows that market risk appetite, market liquidity and US monetary policy play a major role in driving exchange rate pressure. 
+
+Exchange Market Pressure (EMP) is the term used here.  Limit literarture post crisis.  Ross and Spiegel (2009) and Frankel and Saravelos (2010) assess the degree to which leading indicators can provide information. 
+
+Empirical evidence on the importance of capital flows:  Brooks et al (2001), Bakardzhiva at al. (2010) show that portfolio flows, borrowing and aid affect the real exchange rate. Combesa et al. (2012) assess real exchange rate for developed and emerging economies. 
+
+Interest in external (push) and internal (pull) factors. Fred data on TED, VIX, bond yields, Fed funds rate and slope of the yield curve. Also use of Fernandez (2012) capital control data. 
+
+EMP is measured as difference between the percentage change in the exchange rate and and foreign exchange reserves. Interest rate differential is added so that the total measure of pressure is 
+
+$$emp_t = \frac{e_t - e_{t-1}}{e_{t-1}} - (i_t - i_t^*) - \frac{ir_t - ir_{t-1}}{ir+{t-1}}$$
+
+
 [International liquidity and Exchange rate dynamics](http://www.citeulike.org/user/RobHayward/article/13828642). Exchange rates determined by capital flows. Supply and demand for capital and willingness of financial system to absorb imbalances determines exchange rates.  Risk-taking in currency markets is concentrated amongst a few niche financial institutions. These institutions range from proprietary desks of investment banks, hedge funds and active fund managers. Constrained by capital and balance sheet. Alterations in the financial balance sheets cause alterations in the pricing of currency risk. This introduces portfolio flows, financiers' balance sheets and risk into the determination of exchange rates. 
 
 Stylised facts:  Failures of UIP and profitability of carry trade; large-scale gross capital flows; appreciation of exchange rates that face capital inflows; disconnect between exchange rates and macroeconomic fundamentals; vulnerability of external-debt currencies to financial shock; impact of large-scale intervention on exchange rates. UIP is violated because financiers' risk-bearing activity scope is limited and this requires them to demand a risk-premium. The carry-trade is profitable because, given an interest rate differential, financiers cannot take sufficient risk to exploit the profitability of the trade. Financial disruptions require an increased expected return via an immediate loss and an expectation of recovery ahead. Financiers act as shock absorbers by absorbing some of the imbalance caused by fundamentals but also cause shocks 
