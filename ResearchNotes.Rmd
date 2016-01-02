@@ -32,6 +32,9 @@ There are two parts to the study:  assess the Federal Reserve pronouncements usi
 Tightening expectations lead to emerging currency outflow; local currency debt flows are less sensitive than hard currency debt flows;' passive investors are more responsive than active investors; Latin America is the most sensitive. 
 
 There are a number of important links here. 
+
+[International Capital Flows to emerging markets](http://www.sciencedirect.com/science/article/pii/S0261560615001941). Novel dataset to analyse gross and net capital flows. Advanced economy bond yields and commodity prices determine global capital flows. Financial openness and instututions important.  There are commmon volatilities in flows. [Here is a link](http://www.stevebronder.com/panic-vignette/) to the paper with the PANIC model. There is debate over whether global or domestic factors are the most important for capital flows. Calvo, Leiderman and Reinhart (1993), Reinhart and Reinhart (2009) look at global factors.  Contessi DePace and Francis (2009) find that international factors affect different types of capital flow in different ways. Domestic factor may also be important.  For example, human capital, financial openness and institutions. Rothenberg and Warnock (2011) argue that capital flow dynamics may come from inflows or outflows which are related to different factors. Findings: US long term interest rates are important for the bank flows; there is a role for commodity priecs and uncertainty in driving equity flows.  Financial openness and institutions are important for determining where these flows go.  
+
 [Capital flows in emerging](http://www.citeulike.org/user/RobHayward/article/13841123)
 How do capital flows change before and after the financial crisis? Do capital controls affect capital flows?  Dynamic panel model estimation. External factors are most important for emerging economies.  Short-term portfolio flow and long-term foreign direct investment affect emerging economy rates.  GFC caused accommodative policies that have created new challenges. Paper looks at the relationship between domestic factors and international factors affect the exchange rate.  For the latter, risk appetite, global liquidity, US monetary policy, commodity prices are used. This paper compliments the studies on the international aspect of US Fed quantitative easing and subsequent *tapering*. 
 
@@ -86,6 +89,67 @@ Bond flows have become more important in the new century. Development of local b
 This paper looks at how different investors react to financial shocks.  They also try to establish which funds are more likely to engage in *return chasing*. They also seek to find out something about the behaviour of *end investors*.  The study uses monthly data on the behaviour of 1100 equity market funds (from February 1996 to September 2013) and 200 bond funds from November 2003 to September 2013. Bond funds are more likely to trade momentum and are more sensitive to global financial shocks. This is the same for local currency and international bond funds. Flows from retail-orientated funds, open-ended funds and dedicated emerging market funds are more sensitive to international financial shocks. Differences in the volatilty of the flows from final investors help to explain these differences. 
 
 #Sudden Stops
+[External Shocks and optimal monetary policy](http://www.bis.org/publ/work528.htm).  The GFC and feedback loops of capital outflow, currency depreciation and deteriorating balance sheets, rising credit spreads and reduced real activity for emerging economies. DSGE model with banking system open to domestic and overseas funding. The Ramsey-optimal policy rule suggests that there should be a response to leanding spreads over the cost of foreign debt, the exchange rate and US interest rates as well as local output and inflation. Reserve requirements can be as effective as policy response to interest rate spreads and the exchange rate. 
+
+[Early warnings of banking crisis](http://www.sciencedirect.com/science/article/pii/S0261560615001928).  This is also in the citulike folder.  There is an exploration of fundamentals in the run up to banking crisis. An early warning system. Interaction of liqudity ratios and loss of demand deposits. Out-of-sample forecasts demonstrate strong predictive power. Table 1 has data from Laeven Valencia (2008), Valencia (2010) and Laeven Valendia (2012) on banking crises.  It is at the monthly level. The paper examines deviations in fundamentals from their norm in teh run up to these crises.  
+
+There are four states of the economy: 
+1. pre-crisis (12 months before); 
+2. crisis (from crisis until read GDP and real credit growth are positive); 
+3. post-crisis (the offset of the crisis and following 12 months); 
+4. tranquile phase. Where there is no crisis in the preceeding or following 12 months. 
+
+To deal with endogeneity, a binominal discrete dependent variable model is estimated. It identifies crisis and tanquile periods.
+
+Need to look at Bussiere and Frantzsher (2006), Towards an early warning system of Financial Crises, Journal of International Money and Finance, 25 (6) 953-73. 
+
+[Towards an early warning system of financial crisis](http://www.citeulike.org/user/RobHayward/article/13841902).  Paper developes an early warning system (EWS) based on a multinomial logit model. Binomial models are subject to *post-crisis bias*. This is the result of failing to distinguish between tranquile periods and the post-crisis period when variables are returning to fundamental levels after the shock. Correctly predicts crises in a majority of 1993-2001 period. 
+
+IMF has helped to develop EMS for financial crisis. These have produced papers by Kaminsky et al. (1998) and Berg and Patillo (1999).  Also central banks: Kamin et al. (2001) and Kamin and Babson (1999) from Fed, Schnatz (1998 and 1999) Bundesbank.  Also private sector:  there is a list on page 954 including JP Morgan, Goldman Sachs, Deutsche Bank, Credit Suisse First Boston, Morgan Stanley. 
+
+There are a number of different definitions of crisis: currency crisis, banking crisis, sovereign debt crisis, private debt crisis, equity crisis. Cuerrency crises are often related to other crises. Kaminsky and Reinhart (1999) identify a combination of currency and banking crisis as a natural combination. 
+
+EMP variable is employed:
+
+$$EMP_{i,t} = w_{REER} \left (\frac{REER_{i,t} - REER_{i, t-1}}{REER_{i, t-1}} \right ) + w_r (r_{i, t} - r_{i, t-1}) - w_{res} \left (\ \frac{res_{i, t} - r_{i, t-1}}{r_{i, t-1}} \right ) $$
+
+It is a weighted average of the change in the real, effective exchange rate, the change in the interest rate and the change in reserves. The importance of EMP is that it captures successful and unsuccessful speculative attacks. A currency crisis is defined as those times when The EMP is two standard deviations above its average value. 
+
+$$  CC_{i, t} = 
+    \begin{cases}
+    1 \text{ if } EMP_{i, t} > \bar{EMP_i} + 2SD(EMP_i)\\
+    0 \text{ if otherwise}
+    \end{cases}
+   $$
+This is a definition of currency crisis that is very commonly used in the literature. See for example, Schnatz (1998) for a through discussion. 
+
+There are two aspects to finding EWS:
+
+* Determining whether a crisis will occure
+* Determining when the crisis will occure
+
+The second is much harder. Therefore, it is usual to determine whether a crisis happens in a specific time frame.  In this paper, there is an attempt to cetermine if a crisis will happen in the next 6 months. Therefore, the $C_{i, t}$ variable is transformed into a forward looking variable $Y_{i, t}
+
+$$ Y_{i, t} = 
+    \begin{cases}
+    1 \text{ if } \exists k = 1, \dots, 12 s.t. CC_{i, t} = 1\\
+    0 \text{ otherwise}
+    \end{cases}
+$$
+
+There are two other broad categories of EWS for currency rates.  
+
+* Extract signals from a range of indicators: Kaminsky and Reinhart (1999), Kaminsky et al. (1998), Goldstein et al. (2000).  The indicators provide a signal when a threashold is breached. The threshold is then adjusted to loewr the noise to signal ratio. 
+* Use of logit or probit models: Frankel and Rose (1996), Eichengreen et al. (1995) and Berg and Patillo (1996). Does not throw away information by turing discreate or continuous variables into binary variables. 
+
+Good overview of logistic model (page 956-7). 
+
+Threshold is based on the trade off between the damage caused by Type I and Type II erros. 
+
+The variables included in the model include degree of overvaluation of the exchange rate (based on change over the last two years, current account, short-term debt to reserves ratio, domestic credit growth, real GDP growth and financial  contaigion. 
+
+The conditional probability of a crisis given a signal is 35%.  This compares to 15.8\% for the unconditional probability. 
+
 [Can intervention stem exchange rate pressure](http://www.imf.org/external/pubs/cat/longres.aspx?sk=43090.0)
 FX intervention for emerging economies as a response to gross capital inflow. Has this been an effective tool? FX leads to less exchange rate appreciation. FX intervention can affect the exchange rate through a signalling channel and a portfolio balance channel. Portfolio balance channel Henderson Rogoff (1982), Kouri (1983) and Branson and Henderson (1985).  See Kumhof (2010) and Gabaix Maggiori (2014) for recent advances. 
 
