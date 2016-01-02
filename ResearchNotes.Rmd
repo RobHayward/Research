@@ -8,19 +8,38 @@ output:
 ---
 
 #Regime-switching method
-[Modelling time-varying variation in euro-lending spreads](http://www.bis.org/publ/work526.htm) BIS paper that looks at regime shift in a VAR model of lending passthourgh.  It uses a number of variables to model the regime-switch.  There are endogenous transiation-probabilities finds that global risk factors have contributed to higher lending rates in Italy and Spain while banking problems explain problems in Spain and fiscal and contaigion problems have affected Italy and Ireland. ECB extraordinary measures have had a temporary effect on Italy policy. There do not appear to be changes in the monetary policy transmission for Portugal. 
+[Modelling time-varying variation in euro-lending spreads](http://www.bis.org/publ/work526.htm) BIS paper that looks at regime shift in a VAR model of lending pass-through.  It uses a number of variables to model the regime-switch.  There are endogenous transition-probabilities finds that global risk factors have contributed to higher lending rates in Italy and Spain while banking problems explain problems in Spain and fiscal and contagion problems have affected Italy and Ireland. ECB extraordinary measures have had a temporary effect on Italy policy. There do not appear to be changes in the monetary policy transmission for Portugal. 
 
-The financial crisis necessitated the use of non-linear modelling techniques. Silverstrini and Zaghini (2015) explore the non-linear links between financial and real sectors. There are moentary frameworks with regimes-shifts like Svensson and Williams (2009). Markov-switching DSGE and VAR models like Sims et al (2008) and Davig and Doh (2009), Farmer et al. (2009), Branchi (2012).  
+The financial crisis necessitated the use of non-linear modelling techniques. Silverstrini and Zaghini (2015) explore the non-linear links between financial and real sectors. There are monetary frameworks with regimes-shifts like Svensson and Williams (2009). Markov-switching DSGE and VAR models like Sims et al (2008) and Davig and Doh (2009), Farmer et al. (2009), Branchi (2012).  
 
 #Capital flow
+[Emerging capital outflow](http://www.voxeu.org/article/history-and-destination-emerging-market-capital-outflows). Rising incomes have increased domestic investors' demand for overseas assets. According to the IMF data on external assets and liabilities, emerging markets' share of global external portfolio assets rose from 5\% in 2000 to 11\% in 2011. Emerging share of US equities rose from 2\$ in 2002 to 9\% in 2014. 
+
+Data comes from IMF's Coordinated Portfolio Investment Survey (CPIS). Also FactSet Ownership (formally LionShares) a database of institutional ownership. 
+
+In theory, investors in all countries should hold the 'world portfolio', a capitalisation-weighted portfolio of all stocks. There are two well-known biases: the home bias and another, related bias that depends on things like geographical proximity, linguistic similarity and cultural ties. It appears that emerging investors show much higher foreign allocation bias than developed countries. 
+
+van Nieuwerburgh and Veldkamp (2009, 2010) suggest the concept of *information immobility*.  This is a response to the idea of *information asymmetry* that could be expected to decline over time.  It is based on the idea that investors have some comparative advantage in learning about their own market and about some market with which they already have ties. Once this information is built, even as more information becomes available, it becomes easier to build on information where there is already an endowment. 
+
+This research seeks to identify information endowments.  The proxies for endowment are historical FDI and trade flows.  The FactShare LionShare data also suggest relationships between developed country foreign subsidiaries of international organisations. 
+
+This information endowment appears to be much stronger for emerging economies than for the developed economies. 
+[Guest contribution: US rate expectations and EM flow](http://econbrowser.com/archives/2015/12/guest-contribution-u-s-monetary-expectations-and-emerging-market-debt-flows)
+US rate increase 16 Dec 2015. How does this rate change and the expectations surrounding it affect the flow of hard and soft currency?  As a consequence of the Mexican and Asian financial crises, the IMF encouraged emerging economies to develop local financial markets and to issue local currency debt. Since the GFC, US interest rate have been low and this has encouraged investment in higher yield emerging currency debt. 
+
+There are two parts to the study:  assess the Federal Reserve pronouncements using interest rate futures and a shadow term structure and categorise these pronouncements as easing (expected), tightening (expected), easing (unexpected) and tightening (unexpected); assess emerging market debt flows against these pronouncements by currency, investor and region. 
+
+Tightening expectations lead to emerging currency outflow; local currency debt flows are less sensitive than hard currency debt flows;' passive investors are more responsive than active investors; Latin America is the most sensitive. 
+
+There are a number of important links here. 
 [Capital flows in emerging](http://www.citeulike.org/user/RobHayward/article/13841123)
-How do capital flows change before and after the financial crisis? Do capital controls affect capital flows?  Dynamic panel model estimation. External factors are most important for emerging economies.  Short-term portfolio flow and long-term foreign direct investment affect emerging economy rates.  GFC caused accomodative policies that have created new challenges. Paper looks at the relationship between domestic factors and international factors affect the exchange rate.  For the latter, risk appetite, global liquidity, US monetary policy, commodity prices are used. This paper compliments the studie on the international aspect of US Fed quantitative easing and subsequent *tapering*. 
+How do capital flows change before and after the financial crisis? Do capital controls affect capital flows?  Dynamic panel model estimation. External factors are most important for emerging economies.  Short-term portfolio flow and long-term foreign direct investment affect emerging economy rates.  GFC caused accommodative policies that have created new challenges. Paper looks at the relationship between domestic factors and international factors affect the exchange rate.  For the latter, risk appetite, global liquidity, US monetary policy, commodity prices are used. This paper compliments the studies on the international aspect of US Fed quantitative easing and subsequent *tapering*. 
 
 Capital flows are more important.  Short-term flows are prone to reversal (Ahmed and Zlate: 2014).  Unconventional policies encouraged the flow of capital from developed to emerging economies. 
 
 The dynamic panel shows that market risk appetite, market liquidity and US monetary policy play a major role in driving exchange rate pressure. 
 
-Exchange Market Pressure (EMP) is the term used here.  Limit literarture post crisis.  Ross and Spiegel (2009) and Frankel and Saravelos (2010) assess the degree to which leading indicators can provide information. 
+Exchange Market Pressure (EMP) is the term used here.  Limit literature post crisis.  Ross and Spiegel (2009) and Frankel and Saravelos (2010) assess the degree to which leading indicators can provide information. 
 
 Empirical evidence on the importance of capital flows:  Brooks et al (2001), Bakardzhiva at al. (2010) show that portfolio flows, borrowing and aid affect the real exchange rate. Combesa et al. (2012) assess real exchange rate for developed and emerging economies. 
 
@@ -59,6 +78,13 @@ The financial crisis provide an example of cases where the depletion of dealer c
 
 If investors are not really attentive to market prices at all times, the market is thinner in each moment and the price impact of traders will be larger. This would mean higher short-run volatility and negatively correlated asset returns. 
 
+[Changes in global investor base and EM financial flows](http://www.imf.org/external/pubs/ft/wp/2015/wp15277.pdf)
+Analysis of mutual-fund flow data revels that bond flows are more sensitive to global factors and follow trends more than equity funds.  Changes in the composition of investors has made flows more sensitive to international factors. 
+
+Bond flows have become more important in the new century. Development of local bond markets has added to this change. Several emerging economies have overcome *original sin* inability to borrow in own currency. More mony is invested by mutual funds.  Investment Company Insititute (ICI) measurs this at USD 30 trillion. As these funds are open-ended (can be redeemed) it makes flows more volatile.  Since 2000 an increased share of investment comes through ETF. There are also increased crossover investor (those participating in emerging and devceloped markets). 
+
+This paper looks at how different investors react to financial shocks.  They also try to establish which funds are more likely to engage in *return chasing*. They also seek to find out something about the behaviour of *end investors*.  The study uses monthly data on the behaviour of 1100 equity market funds (from February 1996 to September 2013) and 200 bond funds from November 2003 to September 2013. Bond funds are more likely to trade momentum and are more sensitive to global financial shocks. This is the same for local currency and international bond funds. Flows from retail-orientated funds, open-ended funds and dedicated emerging market funds are more sensitive to international financial shocks. Differences in the volatilty of the flows from final investors help to explain these differences. 
+
 #Sudden Stops
 [Can intervention stem exchange rate pressure](http://www.imf.org/external/pubs/cat/longres.aspx?sk=43090.0)
 FX intervention for emerging economies as a response to gross capital inflow. Has this been an effective tool? FX leads to less exchange rate appreciation. FX intervention can affect the exchange rate through a signalling channel and a portfolio balance channel. Portfolio balance channel Henderson Rogoff (1982), Kouri (1983) and Branson and Henderson (1985).  See Kumhof (2010) and Gabaix Maggiori (2014) for recent advances. 
@@ -86,7 +112,7 @@ Sterilized intervention through bonds can fully offset the effect of capital inf
 
 What are the extensions:  lower returns on non-bonds can mean an increase in credit growth (also equity and real estate bubbles).  Distortions include real (Dutch disease) and financial (bubbles). Policy tools that target the type of flow (such as intervention and capital controls) are more effective than tools that do not (interest rate). 
 
-Three major types of non-bonds:  FDI, domestic equities and domestic bank liabilities. There must be imperfect substituatility between domestic bonds, domestic non-bonds and foreign bonds so that different rates do not lead to infinite capital flows. 
+Three major types of non-bonds:  FDI, domestic equities and domestic bank liabilities. There must be imperfect substitutibility between domestic bonds, domestic non-bonds and foreign bonds so that different rates do not lead to infinite capital flows. 
 IMF, Hyun Song Shin, 
      [IMF](https://www.imf.org/external/pubs/ft/wp/2013/wp13258.pdf)
 
